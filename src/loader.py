@@ -2,7 +2,7 @@ import kagglehub
 
 def load_data():
     # Загружаем последнюю версию датасета о диабете
-    path = kagglehub.dataset_download("wyamka / diabetes-data-set")
+    path = kagglehub.dataset_download("mathchi/diabetes-data-set")
     print("Path to dataset files:", path)
     return path
 
